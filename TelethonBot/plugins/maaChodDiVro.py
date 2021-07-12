@@ -27,7 +27,7 @@ async def amdddd(event):
   if event.sender_id in SMEX_USER:
       text = event.pattern_match.group(1)
       k = [[Button.text(text)]]
-      await BotzHub.send_message(event.chat_id, "😈", buttons=k)
+      await BotzHub.send_message(event.chat_id, "**SEMX STARTED**", buttons=k)
   else:
       await event.reply("**BHAI YAAR THUM GAAND MARAO**")
     
