@@ -15,4 +15,4 @@ async def alibe(event):
 • 𝙊𝙒𝙉𝙀𝙍 ☞ [𓆩𝙑𝙀𝙉𝙊𝙈𓆪](t.me/R2K_VENOM)\n
 
 """
-  await BotzHub.send_file(event.chat_id, file=SMEX_PIC, captions=pm_caption, buttons=but, link_preview=False)
+  await BotzHub.send_file(event.chat_id, file=SMEX_PIC, caption=pm_caption, buttons=but, link_preview=False)
