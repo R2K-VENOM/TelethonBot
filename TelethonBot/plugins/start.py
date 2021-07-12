@@ -25,14 +25,14 @@ async def creator(event):
 async def ommmmk(event):
     await event.edit("HELP MENU",
                     buttons=[
-                        [Button.inline("Master tool >>", data="ots")],
-                        [Button.inline("tools", data="mhelpk")]
+                        [Button.inline("Master tools >>", data="ots")],
+                        [Button.inline("User tools", data="mhelpk")]
                     ])
                      
 @BotzHub.on(events.callbackquery.CallbackQuery(data="ots"))
 async def oppppppppp(event):
-    await event.edit("•/skem to start smexing.\n•/stop to stop smex.\n•/alive to check bot is alive or not.\n•/repo to get source code of this bot.")
+    await event.edit("•/skem to start smexing.\n•/remove to stop smex.\n•/alive to check bot is alive or not.\n•/repo to get source code of this bot.")
     
 @BotzHub.on(events.callbackquery.CallbackQuery(data="mhelpk"))
 async def oooooookk(event):
-    await event.edit("BHAJ YAAR TUM GAND MARAO")
+    await event.edit("BHAI YAAR TUM GAND MARAO")
