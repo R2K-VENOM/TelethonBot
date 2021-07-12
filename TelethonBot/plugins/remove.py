@@ -8,6 +8,6 @@ SMEX_USER = [1809900087]
 )
 async def _(event):
   if event.sender_id in SMEX_USER:
-    await bot.send_message(event.chat_id, "SEMX DONE NOW TAKE REST", buttons=Button.clear())
+    await BotzHub.send_message(event.chat_id, "SEMX DONE NOW TAKE REST", buttons=Button.clear())
   else:
     await event.reply("**BHAI YAAR THUM GAAND MARAO**")
