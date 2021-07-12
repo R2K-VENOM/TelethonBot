@@ -35,4 +35,4 @@ async def oppppppppp(event):
     
 @BotzHub.on(events.callbackquery.CallbackQuery(data="mhelpk"))
 async def oooooookk(event):
-    await event.edit("BHAI YAAR TUM GAND MARAO")
+    await event.edit("**BHAI YAAR THUM GAAND MARAO**")
