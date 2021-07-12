@@ -4,7 +4,6 @@ from telethon import events, Button
 @BotzHub.on(events.NewMessage(incoming=True, pattern="/alive"))
 async def alibe(event):
   SMEX_PIC = "https://telegra.ph/file/3979593187378b2b54057.jpg"
-  but = [[Button.url("Mʏ ᴍᴀsᴛᴇʀ »»", "t.me/R2K_VENOM")]]
   pm_caption = "•**I'M ALIVE AND READY TO SMEX**\n\n"
   pm_caption += "•**Mʏ sʏsᴛᴇᴍ ɪs ᴘᴇʀғᴇᴄᴛʟʏ ʀᴜɴɴɪɴɢ**\n\n"
   pm_caption += "• Aʙᴏᴜᴛ ᴍʏ sʏsᴛᴇᴍ ✗\n\n"
@@ -14,4 +13,5 @@ async def alibe(event):
         "• **𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔** ☞ [𓆩𝙑𝙀𝙉𝙊𝙈𓆪](t.me/R2K_VENOM)\n\n"
     )
   pm_caption += f"• **𝙊𝙒𝙉𝙀𝙍** ☞ [𓆩𝙑𝙀𝙉𝙊𝙈𓆪](t.me/R2K_VENOM)\n"
+  but = [[Button.url("Mʏ ᴍᴀsᴛᴇʀ »»", "t.me/R2K_VENOM")]]
   await BotzHub.send_file(event.chat_id, file=SMEX_PIC, captions=pm_caption, buttons=but, link_preview=False)
